@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
-    <div id="nav">
+  <div>
+    <div>
       <HelloWorld/>
     </div>
     <router-view/>
@@ -19,12 +19,4 @@ export default {
 
 <style>
 
-#nav a {
-  font-weight: bold;
-  color:white;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
