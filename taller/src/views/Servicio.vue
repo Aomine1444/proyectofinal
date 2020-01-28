@@ -1,79 +1,41 @@
 <template>
   <div class="body">
+    <h3>
+      <span class="text">Nuestro servicio</span>
+    </h3>
     <div class="card-deck">
       <div class="card">
+        <h2 class="title-white">Mecanica General</h2>
         <img src="@/assets/logo.png" class="card-img-top" />
-        <div class="card-body bg-dark">
-          <h5 class="card title-white" style="text-align: center">Card title</h5>
-          <p
-            class="card text-white bg-dark"
-          >This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </p>
+        <div class="card-body">
+          <p>Reparaciión y Mantenimiento.</p>
+          <p>Mantenimientos, revisiones, distribuciones, embragues, culatas, etc.</p>
         </div>
       </div>
       <div class="card">
+        <h2 class="title">Revicion</h2>
         <img src="@/assets/logo.png" class="card-img-top" />
-        <div class="card-body bg-dark">
-          <h5 class="card title-white" style="text-align: center">Card title</h5>
-          <p
-            class="card text-white bg-dark"
-          >This card has supporting text below as a natural lead-in to additional content.</p>
-          <p class="card-text">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </p>
+        <div class="card-body">
+          <p>Aceite y filtros</p>
         </div>
       </div>
       <div class="card">
+        <h2 class="title">Embragues</h2>
         <img src="@/assets/logo.png" class="card-img-top" />
-        <div class="card-body bg-dark">
-          <h5 class="card title-white" style="text-align: center">Card title</h5>
-          <p
-            class="card text-white bg-dark"
-          >This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-          <p class="card-text">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </p>
-        </div>
       </div>
     </div>
     <div class="card-deck">
       <div class="card">
+        <h2 class="title-white">Amortiguadores</h2>
         <img src="@/assets/logo.png" class="card-img-top" />
-        <div class="card-body bg-dark">
-          <h5 class="card title-white" style="text-align: center">Card title</h5>
-          <p
-            class="card text-white bg-dark"
-          >This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </p>
-        </div>
       </div>
       <div class="card">
+        <h2 class="title-white">Frenos</h2>
         <img src="@/assets/logo.png" class="card-img-top" />
-        <div class="card-body bg-dark">
-          <h5 class="card title-white" style="text-align: center">Card title</h5>
-          <p
-            class="card text-white bg-dark"
-          >This card has supporting text below as a natural lead-in to additional content.</p>
-          <p class="card-text">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </p>
-        </div>
       </div>
       <div class="card">
+        <h2 class="title-primary">Card title</h2>
         <img src="@/assets/logo.png" class="card-img-top" />
-        <div class="card-body bg-dark">
-          <h5 class="card title-white" style="text-align: center">Card title</h5>
-          <p
-            class="card text-white bg-dark"
-          >This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-          <p class="card-text">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </p>
-        </div>
       </div>
     </div>
     <ta />
@@ -94,7 +56,27 @@ export default {
 .card {
   margin-top: 20px;
 }
+.card h2{
+  text-align: center;
+  font-family: "Segoe IU", sans-serif;
+  font-style: italic;
+  color: #fb3640
+}
 .body {
-  padding-top: 20px;
+  margin: 0px;
+  padding: 0px;
+  background: #edf7fa;
+}
+.body h3{
+  text-align: center;
+}
+.card-deck {
+  margin: 15px;
+  padding: 10px;
+}
+.text {
+  font-size: 2em;
+  font-family: "Latin Modern Roman 10";
+  font-style: italic;
 }
 </style>

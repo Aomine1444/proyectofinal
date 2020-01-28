@@ -1,4 +1,5 @@
 <template>
+<div class="carosel">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -6,25 +7,19 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
-    <div class="carousel-item active" style="height: 100vhs">
-      <img src="@/assets/casa.jpg" class="d-block w-100" alt="...">
+    <div class="carousel-item active" style="height: 100vh">
+      <img src="@/assets/taller3.jpg" class="d-block w-100" alt="...">
        <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
     </div>
     <div class="carousel-item" style="height: 100vh">
-      <img src="@/assets/casa.jpg" class="d-block w-100" alt="...">
+      <img src="@/assets/taller-mecanico1.jpg" class="d-block w-100" alt="...">
        <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
     </div>
     <div class="carousel-item" style="height: 100vh">
-      <img src="@/assets/casa.jpg" class="d-block w-100" alt="...">
+      <img src="@/assets/talle2.jpg" class="d-block w-100" alt="...">
        <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
     </div>
   </div>
@@ -36,15 +31,19 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-  <ta/>
+</div>
+<Cuerpo/>
+<ta/>
 </div>
 </template>
 
 <script>
 import ta from '@/components/ta.vue'
+import Cuerpo from '@/components/Cuerpo.vue'
 
 export default {
   components: {
+    Cuerpo,
     ta
   }
 }

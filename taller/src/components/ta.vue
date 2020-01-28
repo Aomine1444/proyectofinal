@@ -27,7 +27,6 @@
         </div>
         <div class="colum3">
             <h1>informacion de contacto</h1>
-
             <div class="row2">
                 <img src="@/assets/casa.jpg">
                 <label>
