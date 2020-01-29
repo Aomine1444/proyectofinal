@@ -1,12 +1,12 @@
 <template>
   <div class="body">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="/">
         <img src="@/assets/logo.png" width="30" height="30" class="d-inline-block align-top" />
         LOGO
       </a>
       <button
-        class="navbar-toggler"
+        class="navbar-toggler bg-dark"
         type="button"
         data-toggle="collapse"
         data-target="#navbarSupportedContent"
@@ -33,9 +33,7 @@ export default {
 </script>
 
 <style>
-.navbar {
-  background: #202020;
-}
+
 .navbar-brand {
   color: #f2f2f2;
 }
