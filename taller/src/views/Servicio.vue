@@ -6,36 +6,48 @@
     <div class="card-deck">
       <div class="card">
         <h2 class="title-white">Mecanica General</h2>
-        <img src="@/assets/logo.png" class="card-img-top" />
+        <img src="@/assets/mecanica_general.jpg" class="card-img-top" />
         <div class="card-body">
           <p>Reparaciión y Mantenimiento.</p>
           <p>Mantenimientos, revisiones, distribuciones, embragues, culatas, etc.</p>
         </div>
       </div>
       <div class="card">
-        <h2 class="title">Revicion</h2>
-        <img src="@/assets/logo.png" class="card-img-top" />
-        <div class="card-body">
-          <p>Aceite y filtros</p>
+        <h2 class="title">Revisión</h2>
+        <img src="@/assets/aceites.jpg" class="card-img-top" />
+        <div class="card-body text-center">
+          <p>Aceite, Filtros</p>
+          <p>Mano De Obra Incluido</p>
         </div>
       </div>
       <div class="card">
         <h2 class="title">Embragues</h2>
-        <img src="@/assets/logo.png" class="card-img-top" />
+        <img src="@/assets/embraguez.jpg" class="card-img-top" />
+        <div class="card-body text-center">
+          <p>Cambio y Revisión</p>
+        </div>
       </div>
     </div>
     <div class="card-deck">
       <div class="card">
         <h2 class="title-white">Amortiguadores</h2>
-        <img src="@/assets/logo.png" class="card-img-top" />
+        <img src="@/assets/amortiguadores.png" class="card-img-top" />
+        <div class="card-body text-center">
+          <p>Cambio, Revisión</p>
+          <p>Recomendación</p>
+        </div>
       </div>
       <div class="card">
         <h2 class="title-white">Frenos</h2>
-        <img src="@/assets/logo.png" class="card-img-top" />
+        <img src="@/assets/frenos.jpg" class="card-img-top" />
+        <div class="card-body text-center">
+          <p>Cambio, Revisión</p>
+          <p>Recomendación</p>
+        </div>
       </div>
       <div class="card">
-        <h2 class="title-primary">Card title</h2>
-        <img src="@/assets/logo.png" class="card-img-top" />
+        <h2 class="title-primary">Correas</h2>
+        <img src="@/assets/frenos.jpg" class="card-img-top" />
       </div>
     </div>
     <ta />

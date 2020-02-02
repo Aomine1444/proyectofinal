@@ -1,26 +1,28 @@
 <template>
-<div class="body2">
-    <div class="izquierda">
-        <img src="@/assets/cellphone_79786.png">
-        <h5>
-            <p>
-                Telefono:4716920
-                celular: 65769812
-            </p>
-        </h5>
+  <div>
+      <div class="main-row">
+    <div class="col-md-3">
+      <h5>
+          <img src="@/assets/phone.png" class="img-tes rounded mx-auto d-block">
+          <p class="text-center">Telelfono: 4716903</p>
+          <p class="text-center">Celular: 65769812</p>
+      </h5>
+    </div>
+    <div class="col-md-3">
+         <h5>
+          <img src="@/assets/relog2.png" class="img-tes rounded mx-auto d-block">
+          <p class="text-center">Horario</p>
+          <p class="text-center">8:00 a 13:30 - 14:00 a 18:00</p>
+      </h5>
+    </div>
+    <div class="col-md-3">
+          <h5>
+          <img src="@/assets/local.jpg" class="img-tes rounded mx-auto d-block">
+          <p class="text-center">Av.maxfernades, Quintanilla</p>
+      </h5>
+    </div>
   </div>
-  <div class="Centro">
-<img src="@/assets/cellphone_79786.png">
-        <h5>
-            <p>
-                Telefono
-            </p>
-        </h5>
   </div>
-  <div class="derecha">
-
-  </div>
-</div>
 </template>
 
 <script>
@@ -30,32 +32,8 @@ export default {
 </script>
 
 <style>
-.body2{
-margin: auto;
-margin-top: 20px;
-margin-bottom: 30px;
-width: 1200px;
-height: 500px;
-border: 1px solid black;
-}
-.izquierda{
-    width: 400px;
-    height: 500px;
-    background-color: red;
-    float: left;
-    text-align: center;
-}
-.Centro{
-    width: 400px;
-    height: 500px;
-    background-color: blue;
-    float: left;
-}
-.izquierda img{
-    width: 50px;
-    margin-top: 225px 0;
-}
-.Centro img{
-    width: 30px;
+.img-tes{
+  width: 50px;
+  height: 50px;
 }
 </style>

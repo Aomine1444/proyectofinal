@@ -1,9 +1,14 @@
 <template>
-  <div class="Body">
-    <div class="container-all">
+  <div class="Body6">
+    <div class="main-container">
       <h1>Quienes Somos</h1>
-      <img src="@/assets/sanpedro.jpg" />
-      <p>
+      <div class="all-row">
+        <div class="clearfix visible-sm-block"></div>
+        <aside class="col-xs-12 col-sm-6 col-md-3 col-md-offset-4">
+        <img src="@/assets/sanpedro.jpg" class="img-tr rounded mx-auto d-block"/>
+        </aside>
+        <article class="col-xs-12 col-sm-6 col-md-9 text-center">
+          <p>
         En auto-reparaciones San Antonio, llevamos desde 1974 dándoles el mejor
         servicio profesional y personal. En nuestras instalaciones resolveremos cualquier
         problema mecánico que afecte a su vehículo ajustándonos a plazos acordados y presupuestos.
@@ -16,6 +21,8 @@
         Auto-reparaciones San Antonio forma parte de la red de Taller XXI. Nuestras ventajas de formar
         parte de esta red es que disponemos de su imagen, tecnología, marketing, equipamiento, información y experiencia.
       </p>
+        </article>
+      </div>
     </div>
     <ta/>
   </div>
@@ -32,36 +39,26 @@ export default {
 </script>
 
 <style>
-*{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  font-family: "Latin Modern Roman 10";
-  font-style: italic;
-}
 h1{
   font-size: 50px;
   margin-bottom: 70px;
   text-align: center;
+  box-sizing: border-box;
+  font-family: "Latin Modern Roman 10";
+  font-style: italic;
 }
-.container-all{
-  width: 100%;
-  max-width: 1000px;
-  margin: auto;
-  padding: 60px;
-  background: #ffffff;
-  margin-top: 10px;
-}
-.container-all img{
+.img-tr{
   width: 530px;
-  height: 465px;
+  height: 565px;
   float: left;
-  margin-right: 30px;
+  margin-right: 60px;
   padding-bottom: 60px;
 }
-.container-all p{
-  font-size: 18px;
-  font-weight: 300px;
+.main-container p{
   margin-top: 15px;
+  font-family: "Latin Modern Roman 10";
+  font-style: italic;
+  margin-left: 40px;
+  padding-bottom: 60px;
 }
 </style>

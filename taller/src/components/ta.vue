@@ -4,7 +4,7 @@
     <div class="container-body">
 
         <div class="colum1">
-            <h1>Mas informacion de la empresa</h1>
+            <h1>Mas informacion del Taller</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Provident optio inventore magnam? Explicabo deserunt alias eos cum, incidunt nulla amet temporibus totam omnis
             harum delectus! Minus nostrum saepe quis corrupti.</p>
@@ -13,28 +13,28 @@
             <h1>Redes Sociales</h1>
 
             <div class="row">
-                <img src="@/assets/logo.png">
+                <img src="@/assets/face1.png">
                 <label>Siguenos en Facebook</label>
             </div>
              <div class="row">
-                <img src="@/assets/logo.png">
+                <img src="@/assets/insta.jpg">
                 <label>Siguenos en Instagram</label>
             </div>
              <div class="row">
-                <img src="@/assets/logo.png">
+                <img src="@/assets/whats.jpg">
                 <label>Siguenos en Whatsapp </label>
             </div>
         </div>
         <div class="colum3">
             <h1>informacion de contacto</h1>
             <div class="row2">
-                <img src="@/assets/casa.jpg">
+                <img src="@/assets/casa2.png" class="rounded">
                 <label>
                     direccion,calles y numero de casa
                 </label>
             </div>
             <div class="row2">
-                <img src="@/assets/cellphone_79786.png">
+                <img src="@/assets/phone.png">
                 <label>
                     Numero de Telefonos
                 </label>

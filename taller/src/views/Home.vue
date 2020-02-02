@@ -1,4 +1,5 @@
 <template>
+<div>
 <div class="carosel">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -32,9 +33,11 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-<Cuerpo/>
-<ta/>
 </div>
+<Cuerpo/>
+  <ta/>
+</div>
+
 </template>
 
 <script>
