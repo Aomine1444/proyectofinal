@@ -1,5 +1,5 @@
 <template>
-  <div class="body">
+  <div class="contenedor3">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="/">
         <img src="@/assets/logo.png" width="30" height="30" class="d-inline-block align-top" />
@@ -52,6 +52,9 @@ export default {
   color: #f2f2f2;
   text-align: -webkit-match-parent;
   list-style: none;
-  margin-left: 60px;
+  margin-left: 200px;
+}
+.contenedor3{
+  width: 100%;
 }
 </style>
