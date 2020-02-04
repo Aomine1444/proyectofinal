@@ -77,7 +77,6 @@ export default {
 .body {
   margin: 0px;
   padding: 0px;
-  background: #edf7fa;
 }
 .body h3{
   text-align: center;

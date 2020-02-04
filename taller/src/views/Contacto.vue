@@ -22,12 +22,12 @@
           </p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
-          <iframe
+          <iframe class="iman"
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d484.2024633681496!2d-66.10877125188553!3d-17.38127822867462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2sbo!4v1580764653532!5m2!1ses!2sbo"
             width="600"
             height="450"
             frameborder="0"
-            style="border:0;"
+            style="max-width 100%"
             allowfullscreen
           ></iframe>
         </div>
@@ -68,5 +68,10 @@ export default {
   margin-top: 15px;
   font-family: "Latin Modern Roman 10";
   font-style: italic;
+}
+.iman{
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 </style>
