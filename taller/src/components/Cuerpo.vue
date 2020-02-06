@@ -5,8 +5,8 @@
         <div class="col-md-4" style="width: 100%">
           <h5>
             <img src="@/assets/phone.png" class="img-tes rounded mx-auto d-block" />
-            <p class="text-center">Telelfono: 4716903</p>
-            <p class="text-center">Celular: 65769812</p>
+            <p class="text-center">Telelfono: +591-4716903</p>
+            <p class="text-center">Celular: +591-60374416</p>
           </h5>
         </div>
         <div class="col-md-4" style="width: 100%">
@@ -19,7 +19,7 @@
         <div class="col-md-4" style="width: 100%">
           <h5>
             <img src="@/assets/local.jpg" class="img-tes rounded mx-auto d-block" />
-            <p class="text-center">Av.maxfernades, Quintanilla</p>
+            <p class="text-center"> Av.Tercera entre max fernades,Quintanilla</p>
           </h5>
         </div>
       </div>

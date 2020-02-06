@@ -1,11 +1,11 @@
 <template>
   <div class="body">
-        <nav class="navbar navbar-expand-md navbar-light color5">
+        <nav class="navbar navbar-expand-md navbar-light bg-dark">
           <a class="navbar-brand" href="/">
-            <img src="@/assets/logo2.jpg" width="170" height="100" class="d-inline-block align-top" />
+            <img srcset="@/assets/logo2.jpg 3x @/assets/logo2.jpg 3x @/assets/LOGO SOLO 2.png 1x" width="170" height="100" class="d-inline-block align-top" />
           </a>
           <button
-            class="navbar-toggler bg-dark"
+            class="navbar-toggler bg-light"
             type="button"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"

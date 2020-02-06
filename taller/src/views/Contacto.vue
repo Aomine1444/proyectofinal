@@ -10,15 +10,14 @@
             ponte en contacto con nosotros, a través del siguiente formulario,
             llamándonos o ven a vernos a nuestras oficinas. Estaremos encantados de atenderte.
           </p>
-          <p>Teléfono: 4716903</p>
+          <p>Teléfono:+591- 4716903</p>
           <p>Email: Nikodemo23x@outlook.com</p>
-          <p>Móvil: 65769812</p>
-          <p>Dirección: Quitanilla, Av.Maxfernades</p>
+          <p>Móvil: +591- 60374416</p>
+          <p>Dirección: zona arocagua , Av. Villazon Km. 4 </p>
           <p>Horario: 8:00 a 13:00 y 15:00 a 18:30</p>
           <h3 class="sub-title-3">Como llegar</h3>
           <p>
-            Por la autopista dirección donosti, salida amorebieta, a 5 km por la nacional n-634,barrio san antonio,
-            a mano izquierda (visible desde la carretera). Por la n-634.
+            Av. villazon Km. 4 rotonda de quintanilla dos cuadras al norte,sobre la av. tercera entre maximiliano kolbe y max fernandez
           </p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
