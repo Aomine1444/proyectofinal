@@ -46,8 +46,10 @@
         </div>
       </div>
       <div class="card">
-        <h2 class="title-primary">Correas</h2>
-        <img src="@/assets/frenos.jpg" class="card-img-top" />
+        <h2 class="title-primary">Cremalleras</h2>
+        <img src="@/assets/Crema.png" class="card-img-top" />
+        <p>Cambio, Revisión</p>
+        <p>Recomendación</p>
       </div>
     </div>
     <ta />
@@ -68,17 +70,17 @@ export default {
 .card {
   margin-top: 20px;
 }
-.card h2{
+.card h2 {
   text-align: center;
   font-family: "Segoe IU", sans-serif;
   font-style: italic;
-  color: #fb3640
+  color: #fb3640;
 }
 .body {
   margin: 0px;
   padding: 0px;
 }
-.body h3{
+.body h3 {
   text-align: center;
 }
 .card-deck {
