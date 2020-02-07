@@ -18,11 +18,11 @@
             </div>
             <div class="row espaciado">
               <i class="fab fa-instagram imagen"></i>
-              <label class="text-light">Siguenos en Instagram</label>
+              <label class="text-primary">Siguenos en Instagram</label>
             </div>
             <div class="row espaciado">
               <i class="fab fa-whatsapp-square imagen"></i>
-              <label class="text-light">Siguenos en Whatsapp</label>
+              <label class="text-primary">Siguenos en Whatsapp</label>
             </div>
           </div>
           <div class="col-sm-3">
